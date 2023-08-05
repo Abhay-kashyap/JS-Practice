@@ -24,4 +24,5 @@ console.log(booleanIsLoggedIn);
 let sumNumber =33
 let stringNumber=String(sumNumber);
 console.log(stringNumber);
+
 console.log(typeof stringNumber);
