@@ -31,3 +31,19 @@ console.log(typeof id); //Symbol => type of Symbol
 console.log(typeof scoreValue); //number => type of number also float numbers
 
 
+/******************************************* */
+// stack and heap
+let myYouTubename="harsh";
+let anotherName=myYouTubename;
+anotherName="code with chai"
+console.log(anotherName);
+console.log(myYouTubename);
+
+let userOne={
+    email:'abc@gmail.com',
+    upi:"abc@upl",
+}
+let userTwo= {...userOne};
+userTwo.email="ab123@gmail.com";
+console.log(userTwo.email);
+console.log(userOne.email);
