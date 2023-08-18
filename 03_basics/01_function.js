@@ -73,8 +73,10 @@ function myArr(getArray){
 console.log(myArr([200,300,344,45,5245,3,445,36,54,65,5,545,4,54,456,54]));
 
 
-
+//rest operator for use take multiple parameter
 function addprice(...num1){
     return num1;
 }
 console.log(addprice(200,300,400,500));
+
+
