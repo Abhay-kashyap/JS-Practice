@@ -66,8 +66,8 @@ console.log(p);
 
 
 // json in basic understand
-{
-    "name":"js in hindi",
-    "fees":"free",
-    "courseInstructor":"hitesh",
-}
+// {
+//     "name":"js in hindi",
+//     "fees":"free",
+//     "courseInstructor":"hitesh",
+// }
