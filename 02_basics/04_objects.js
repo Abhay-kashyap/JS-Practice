@@ -39,9 +39,35 @@ const users=[
         email:'h123@gmail.com'
     }
 ]
-users[1].email
-console.log(tinderUser)
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// users[1].email
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// destructure
+const course ={
+    coursename : "js in hindi",
+    price:"999",
+    courseInstructor :"hitesh"
+}
+//course.courseInstructor
+// console.log(Object.keys(course));
+// console.log(Object.values(course));
+// console.log(Object.entries(course));
+
+// destructure the objects 
+// const {courseInstructor : instructor}=course 
+// console.log(instructor);
+// destructure  take a variable and  object {key :'change name of then call these name'} =objectname
+const {price :p}=course;
+console.log(p);
+
+
+
+// json in basic understand
+{
+    "name":"js in hindi",
+    "fees":"free",
+    "courseInstructor":"hitesh",
+}
